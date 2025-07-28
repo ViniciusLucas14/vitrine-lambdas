@@ -1,6 +1,6 @@
 📦 Backblaze Account Authorization Lambda
-This project contains an AWS Lambda function built using the Serverless Framework. It is designed to securely retrieve and return Backblaze B2 cloud storage serviceS.
-
+This project contains an AWS Lambda function built using the Serverless Framework. It is designed to securely retrieve and return Backblaze B2 cloud storage services.
+# For what? It provides features for Vitrinid integrations. To know more access: http://page.vitrinid.com.br/
 🔧 Features
 Retrieves authorizationToken, accountId, and other required B2 credentials
 
@@ -18,7 +18,7 @@ Serverless Framework
 Backblaze B2 API
 
 # HOW TO USE:
-# # Serverless Framework Node HTTP API on AWS
+# Serverless Framework Node HTTP API on AWS
 
 This template demonstrates how to make a simple HTTP API with Node.js running on AWS Lambda and API Gateway using the Serverless Framework.
 
