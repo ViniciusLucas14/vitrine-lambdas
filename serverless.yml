@@ -1,0 +1,28 @@
+org: vitrinid
+app: apisls
+service: apisls
+
+plugins:
+  - serverless-offline
+
+package:
+  individually: true
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+
+custom:
+  esbuild:
+    target: 'node20'
+    format: esm
+    minify: true
+    outputFileExtension: .mjs
+
+functions:
+  b2AuthorizeAccount:
+    handler: src/handler.authorize
+    events:
+      - httpApi:
+          path: /
+          method: GET

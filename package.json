@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.152",
+    "@types/node": "^24.1.0",
+    "esbuild": "^0.25.8",
+    "serverless-esbuild": "^1.55.1",
+    "serverless-offline": "^14.4.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "dev": "sls offline --reloadHandler"
+  },
+  "type": "module"
+}
