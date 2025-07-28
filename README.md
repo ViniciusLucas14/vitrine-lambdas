@@ -1,20 +1,28 @@
-<!--
-title: 'AWS Simple HTTP Endpoint example in NodeJS'
-description: 'This template demonstrates how to make a simple HTTP API with Node.js running on AWS Lambda and API Gateway using the Serverless Framework.'
-layout: Doc
-framework: v4
-platform: AWS
-language: nodeJS
-authorLink: 'https://github.com/serverless'
-authorName: 'Serverless, Inc.'
-authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
--->
+📦 Backblaze Account Authorization Lambda
+This project contains an AWS Lambda function built using the Serverless Framework. It is designed to securely retrieve and return Backblaze B2 cloud storage serviceS.
 
-# Serverless Framework Node HTTP API on AWS
+🔧 Features
+Retrieves authorizationToken, accountId, and other required B2 credentials
+
+Lightweight, fast, and serverless
+
+Configured for easy deployment using the Serverless Framework
+
+🚀 Tech Stack
+Node.js (or your runtime)
+
+AWS Lambda
+
+Serverless Framework
+
+Backblaze B2 API
+
+# HOW TO USE:
+# # Serverless Framework Node HTTP API on AWS
 
 This template demonstrates how to make a simple HTTP API with Node.js running on AWS Lambda and API Gateway using the Serverless Framework.
 
-This template does not include any kind of persistence (database). For more advanced examples, check out the [serverless/examples repository](https://github.com/serverless/examples/) which includes Typescript, Mongo, DynamoDB and other examples.
+This template does not include any kind of persistence (database). 
 
 ## Usage
 
