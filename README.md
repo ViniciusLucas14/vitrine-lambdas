@@ -6,6 +6,7 @@ This AWS Lambda function, built using the [Serverless Framework](https://www.ser
 This Lambda calls the `b2_authorize_account` and it gets the token for Vitrinid to authenticate and integrate with Backblaze services. To know more access: [Vitrinid](http://page.vitrinid.com.br/)
 
 🔧 Features
+
 Retrieves authorizationToken, accountId, and other required B2 credentials
 
 ## 🧠 Technologies Used
